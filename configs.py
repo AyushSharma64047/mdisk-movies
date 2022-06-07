@@ -1,4 +1,4 @@
-# (c) @RoyalKrrishna
+# (c) @pankajpandiyar
 
 import os
 
