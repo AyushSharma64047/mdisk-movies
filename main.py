@@ -60,7 +60,7 @@ async def inline_handlers(_, event: Message):
 
     async for message in User.search_messages(chat_id=Config.CHANNEL_ID, limit=50, query=event.text):
         if message.text:
-            thumb = message.pic
+            thumb = message.photo
             f_text = message.text
             msg_text = message.text.html
             if "|||" in message.text:
