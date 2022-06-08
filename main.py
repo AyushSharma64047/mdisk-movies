@@ -26,7 +26,7 @@ User = Client(
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
          
-        await event.reply_photo("https://telegra.ph/file/08ce29db269b279061d94.jpg",
+        await event.reply_photo("https://telegra.ph/file/7108a3045759e31f5c34f.jpg",
 			        caption=Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("Our Channel", url="https://t.me/potterhub"),
