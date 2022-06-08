@@ -50,7 +50,7 @@ async def help_handler(_, event: Message):
 async def inline_handlers(_, event: Message):
     if event.text == '/start':
         return
-    answers = f'**📂  {event.text} \n\n No Results Found❗ /n/n**'
+    answers = f'**📂  {event.text} \n\n No Results Found❗ please write The correct spelling**'
 
 
 
