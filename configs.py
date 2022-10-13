@@ -26,7 +26,7 @@ class Config(object):
 👨‍🔧 Me Developed By: <a href='https://t.me/sigma_male_007'>MyFather</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/'>Aayush</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/sigma_male_007'>Aayush</a>
 
 👁️‍🗨️If You Want Your Own Bot Like This Then You Can Contact Our Developer
 
@@ -41,15 +41,14 @@ HOME_TEXT = """
 
 I'm Mdisk Link Search Robo.</a>
 
-I Can Search🔍 Mobiz-Seriez-Shows❗
+I Can Search🔍 Mobiz-Seriez-Showz❗
 
 Just Drop A Name With Correct Spelling And See My Powers ⚡⚡
 
 <a>If You Didn't Found Ur Result, Please Try Requesting Here👉<i>@blackest_harbour</i> </a></b>
 
 """
-
-    START_MSG = """
+START_MSG = """
 
 <b>Yo! Dear {}😇,
 
@@ -62,7 +61,6 @@ Just Drop A Name With Correct Spelling And See My Powers ⚡
 <a>If You Didn't Found Ur Result Try Requesting Here👉<u> @blackest_harbour <u> </a></b>
 
 """
-
 
     
 
