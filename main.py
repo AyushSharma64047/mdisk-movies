@@ -41,8 +41,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/potterhub"),
-             InlineKeyboardButton("Our Group", url="https://t.me/moviesportal_00"), 
+            [InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
+             InlineKeyboardButton("Our Group", url="https://t.me/blackest_harbour"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -89,11 +89,11 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Our Channel", url="https://t.me/potterhub"),
-						InlineKeyboardButton("Our Group", url="https://t.me/moviesportal_00")
+						InlineKeyboardButton("Our Channel", url="https://t.me/blackest_harbour"),
+						InlineKeyboardButton("Our Group", url="https://t.me/blackest_harbour")
 					],
 					[
-						InlineKeyboardButton("Developer", url="https://t.me/potter_00"),
+						InlineKeyboardButton("Developer", url="https://t.me/z_harbour"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -108,10 +108,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/potterhub")
+						InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour")
 					], 
                                         [
-						InlineKeyboardButton("Owner", url="https://t.me/potter_00"),
+						InlineKeyboardButton("Owner", url="https://t.me/z_harbour"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -129,8 +129,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/potter_00"),
-						InlineKeyboardButton("Channel", url="https://t.me/potterhub")
+						InlineKeyboardButton("Group", url="https://t.me/z_harbour"),
+						InlineKeyboardButton("Channel", url="https://t.me/z_harbour")
 					]
 				]
 			),
