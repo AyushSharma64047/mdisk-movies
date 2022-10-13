@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", -100)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-😘 My Name: <a href='https://t.me/Mdisk_Links_Sender_Bot'>Mdisk Search Robo</a>
+🤖 My Name: <a href='https://t.me/MdiskLinksSearchBot'>Mdisk Search Robo</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,32 +23,29 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍🔧 Me Developed By: <a href='https://t.me/sigma_male_007'>MyFather</a></b>
+👨‍💻 DEVELOPER: <a href='https://t.me/sigma_male_007'>Lucifer</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/sigma_male_007'>Aayush</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/sigma_male_007'>Click Me</a>
 
-👁️‍🗨️If You Want Your Own Bot Like This Then You Can Contact Our Developer
+If You Want Your Own Bot Like This Then You Can Contact My Father.</b>
+"""
 
-📍Note By Developer: Please Don't Spam Anything To The Bot & Please Do Not Continuosly Block The Bot.
-Join Main Channel <b> Z_Harbour .</b> And There You Guys will Find All Uploaded News of Latest TV's,Series, Movies. 
-Which You Can Get via @Blackest_harbour.So Keep Our Both Channels Subscribed🤝. This is For Our Own Privacy.Thx💙 """
-
-
-HOME_TEXT = """
-
+    HOME_TEXT = """
 <b>Yo! {}😇,
 
 I'm Mdisk Link Search Robo.</a>
 
-I Can Search🔍 Mobiz-Seriez-Showz❗
+I Can Search🔍 Mobiz-Seriez-Shows❗
 
 Just Drop A Name With Correct Spelling And See My Powers ⚡⚡
 
 <a>If You Didn't Found Ur Result, Please Try Requesting Here👉<i>@blackest_harbour</i> </a></b>
-
 """
-START_MSG = """
+
+
+
+    START_MSG = """
 
 <b>Yo! Dear {}😇,
 
@@ -59,8 +56,7 @@ I Can Search🔍 Mobiz-Seriez-Showz❗
 Just Drop A Name With Correct Spelling And See My Powers ⚡
 
 <a>If You Didn't Found Ur Result Try Requesting Here👉<u> @blackest_harbour <u> </a></b>
-
 """
 
-    
+
 
