@@ -12,10 +12,10 @@ class Config(object):
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", -100)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 My Name: <a href='https://t.me/potter_00'>Mdisk Search Robot</a>
+😘 My Name: <a href='https://t.me/Mdisk_Links_Sender_Bot'>Mdisk Search Robo</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,33 +23,18 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/potter_00'>@potter_00</a></b>
+👨‍🔧 Me Developed By: <a href='https://t.me/sigma_male_007'>MyFather</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/potter_00'>@potter</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/'>Aayush</a>
 
-If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
-"""
+👁️‍🗨️If You Want Your Own Bot Like This Then You Can Contact Our Developer
 
-    HOME_TEXT = """
-<b>Hey! {}😅,
-
-I'm potter Search Robot.🤖</a>
-
-I Can Search!🔍 What You Want?😜
-
-<a>Made With ❤ By @potter_00</a></b>
-"""
+📍Note By Developer: Please Don't Spam Anything To The Bot & Please Do Not Continuosly Block The Bot.
+Join Main Channel <b> Z_Harbour .</b> And There You Guys will Find All Uploaded News of Latest TV's,Series, Movies. 
+Which You Can Get via @Blackest_harbour.So Keep Our Both Channels Subscribed🤝. This is For Our Own Privacy.Thx💙
 
 
-    START_MSG = """
-<b>Hey! {}😅,
 
-I'm potter Search Robot.🤖</a>
-
-I Can Search!🔍 What You Want?😜
-
-<a>Made With ❤ By @potter_00</a></b>
-"""
-
+    
 
