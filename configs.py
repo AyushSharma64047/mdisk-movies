@@ -32,8 +32,36 @@ class Config(object):
 
 📍Note By Developer: Please Don't Spam Anything To The Bot & Please Do Not Continuosly Block The Bot.
 Join Main Channel <b> Z_Harbour .</b> And There You Guys will Find All Uploaded News of Latest TV's,Series, Movies. 
-Which You Can Get via @Blackest_harbour.So Keep Our Both Channels Subscribed🤝. This is For Our Own Privacy.Thx💙
+Which You Can Get via @Blackest_harbour.So Keep Our Both Channels Subscribed🤝. This is For Our Own Privacy.Thx💙 """
 
+
+HOME_TEXT = """
+
+<b>Yo! {}😇,
+
+I'm Mdisk Link Search Robo.</a>
+
+I Can Search🔍 Mobiz-Seriez-Shows❗
+
+Just Drop A Name With Correct Spelling And See My Powers ⚡⚡
+
+<a>If You Didn't Found Ur Result, Please Try Requesting Here👉<i>@blackest_harbour</i> </a></b>
+
+"""
+
+    START_MSG = """
+
+<b>Yo! Dear {}😇,
+
+I'm Mdisk Link Search Robo.</a>
+
+I Can Search🔍 Mobiz-Seriez-Showz❗
+
+Just Drop A Name With Correct Spelling And See My Powers ⚡
+
+<a>If You Didn't Found Ur Result Try Requesting Here👉<u> @blackest_harbour <u> </a></b>
+
+"""
 
 
     
